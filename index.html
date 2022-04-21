@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion App</title>
+
+     <!-- Google font links -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Link to my Css file -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <main class="main-container">
+        <section class="header-container">
+            <header class="main-header">
+                <h3 class="header-title">Metric/Imperial unit conversion</h3>
+
+                <div class="input-container">
+                    <input type="text" name="" placeholder="Enter Number" id="input-el">
+                    <button class="myButton" onclick="startConversion()">Start Conversion</button>
+                </div>
+            </header>
+            <div class="header-content">
+                <!-- Length (Meter to Feet Conversion) -->
+                <h3 class="content-title">Length (Meter/Feet)</h3>
+                <span id="meter-el" class="content-span">0 meters = 0.000 feet | 0 feet = 0.000 meters</span>
+
+
+                <!-- Volumn (Liters to Gallons Conversion) -->
+                <h3 class="content-title">Volume (Liters/Gallons)
+                </h3>
+                <span id="volume-el" class="content-span">0 Liters = 0.000 Gallons | 0 Gallons = 0.000 Liters</span>
+
+
+                <!-- Mass (Kilograms to Pounds Conversion) -->
+                <h3 class="content-title">Mass (Kilograms/Pounds)</h3>
+                <span id="mass-el" class="content-span">0 Kilograms = 0.000 Pounds | 0 Pounds = 0.000 Kilograms</span>
+            </div>
+        </section>
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
